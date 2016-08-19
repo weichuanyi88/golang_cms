@@ -1,0 +1,177 @@
+<div class="banner">
+    <div class="container ">
+        <div id="top" >
+            <div class="row">
+                <div class="col-sm-3">
+                    <!-- Search -->
+                    <form role="form">
+                        <div class="well">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search Question">
+                      <span class="input-group-btn">
+                        <button class="btn btn-style btn-k btn-primary" type="button"><i class="fa fa-search"></i>
+                        </button>
+                      </span>
+                                    </div><!-- /input-group -->
+                                </div><!-- /.col-lg-6 -->
+                            </div><!-- /.row -->
+                        </div>
+                    </form>
+                    <!-- Categories -->
+                    <div class="panel-group" id="help-nav">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#help-nav" href="#help-nav-one">
+                                    Account Management
+                                </a>
+                            </div>
+                            <div id="help-nav-one" class="panel-collapse collapse in">
+                                <div class="panel-body">
+                                    <ul>
+                                        <li><a href="#">Question category (18)</a></li>
+                                        <li><a href="#">Question category (12)</a></li>
+                                        <li><a href="#">Question category (9)</a></li>
+                                        <li><a href="#">Question category (29)</a></li>
+                                        <li><a href="#">Question category (6)</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#help-nav" href="#help-nav-two"
+                                   class="collapsed">
+                                    Privacy
+                                </a>
+                            </div>
+                            <div id="help-nav-two" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul>
+                                        <li><a href="#">Question category (18)</a></li>
+                                        <li><a href="#">Question category (12)</a></li>
+                                        <li><a href="#">Question category (9)</a></li>
+                                        <li><a href="#">Question category (29)</a></li>
+                                        <li><a href="#">Question category (6)</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#help-nav" href="#help-nav-three"
+                                   class="collapsed">
+                                    Security
+                                </a>
+                            </div>
+                            <div id="help-nav-three" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul>
+                                        <li><a href="#">Question category (18)</a></li>
+                                        <li><a href="#">Question category (12)</a></li>
+                                        <li><a href="#">Question category (9)</a></li>
+                                        <li><a href="#">Question category (29)</a></li>
+                                        <li><a href="#">Question category (6)</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#help-nav" href="#help-nav-four"
+                                   class="collapsed">
+                                    Features
+                                </a>
+                            </div>
+                            <div id="help-nav-four" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul>
+                                        <li><a href="#">Question category (18)</a></li>
+                                        <li><a href="#">Question category (12)</a></li>
+                                        <li><a href="#">Question category (9)</a></li>
+                                        <li><a href="#">Question category (29)</a></li>
+                                        <li><a href="#">Question category (6)</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#help-nav" href="#help-nav-five"
+                                   class="collapsed">
+                                    User Setting
+                                </a>
+                            </div>
+                            <div id="help-nav-five" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul>
+                                        <li><a href="#">Question category (18)</a></li>
+                                        <li><a href="#">Question category (12)</a></li>
+                                        <li><a href="#">Question category (9)</a></li>
+                                        <li><a href="#">Question category (29)</a></li>
+                                        <li><a href="#">Question category (6)</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--<div class="col-sm-2">
+                    <img class="img-responsive" src="img/icon-block1.png" alt="">
+                    <div class="text-center">
+                        <strong>Create Account</strong>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <img class="img-responsive" src="img/icon-block2.png" alt="">
+                    <div class="text-center">
+                        <strong>New Update</strong>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <img class="img-responsive" src="img/icon-block3.png" alt="">
+                    <div class="text-center">
+                        <strong>Disable Account</strong>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <h3><span>Resources</span></h3>
+                    <ul class="list-style-none resources">
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="blog.html">Our Blog</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                -->
+                <div class="col-sm-6">
+                    <h3><span>资讯中心</span></h3>
+                    <div class="clearfix"> </div>
+                    <ol class="help-questions">
+                        {{ range .newsList}}
+                        <li><a href="/news/getnewsdetail?id={{.Id}}">{{.Title}}   {{.AddTime}}</a></li>
+                        {{end}}
+                    </ol>
+
+                    <ul class="pagination pull-left">
+                        {{.pagerhtml}}
+                        <li><span>共{{.totalItem}}记录</span></li>
+                    </ul>
+
+                    <!-- Paggination -->
+                    <!--<ul class="pagination pull-left">
+                        <li class="disabled"><a href="#">&laquo;</a></li>
+                        <li class="active"><a href="#">1 <span class="sr-only"></span></a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">&raquo;</a></li>
+                    </ul>-->
+                    <div class="clearfix"></div>
+                </div>
+            </div> <!-- / .row -->
+        </div>
+    </div> <!-- / .container -->
+</div>
