@@ -28,7 +28,7 @@ func init() {
  */
 func  (this *News) GetTopNewsByTypeId(id int64)  ([]News){
 	var newsList []News
-	num,err := ormer.Raw("SELECT id, title,content,typeId,image,addTime,parentTypeId FROM t_news WHERE typeId = ? limit 10", id).QueryRows(&newsList)
+	num,err := orm.NewOrm().Raw("SELECT id, title,content,typeId,image,addTime,parentTypeId FROM t_news WHERE typeId = ? limit 10", id).QueryRows(&newsList)
 	if(err ==nil){
 		fmt.Println(num)
 	}
@@ -40,7 +40,7 @@ func  (this *News) GetTopNewsByTypeId(id int64)  ([]News){
  */
 func  (this *News) GetNewsListOrderByAddTimeDesc()  ([]News){
 	var newsList []News
-	num,err := ormer.Raw("SELECT id, title,content,typeId,image,addTime,parentTypeId FROM t_news limit 20").QueryRows(&newsList)
+	num,err := orm.NewOrm().Raw("SELECT id, title,content,typeId,image,addTime,parentTypeId FROM t_news limit 20").QueryRows(&newsList)
 	if(err ==nil){
 		fmt.Println(num)
 	}
@@ -52,6 +52,6 @@ func  (this *News) GetNewsListOrderByAddTimeDesc()  ([]News){
  */
 func  (this *News) GetNewsById(id int64)  (News){
 	var newsDetail News
-	ormer.Raw("SELECT * FROM t_news WHERE id = ?", id).QueryRow(&newsDetail)
+	orm.NewOrm().Raw("SELECT * FROM t_news WHERE id = ?", id).QueryRow(&newsDetail)
 	return newsDetail
 }

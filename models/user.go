@@ -19,11 +19,11 @@ func init() {
 }
 
 func  (this *User) AddUser(m *User)  (int64, error){
-	return ormer.Insert(m)
+	return orm.NewOrm().Insert(m)
 }
 
 func  (this *User) GetUser(id int64)  (User){
 	user := User{Id: id}
-	ormer.Read(&user)
+	orm.NewOrm().Read(&user)
 	return user
 }

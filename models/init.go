@@ -3,11 +3,12 @@ package models
 import (
 	"github.com/astaxie/beego/orm"
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/astaxie/beego"
 )
 
-var (
-	ormer orm.Ormer
-)
+//var (
+//	ormer orm.Ormer
+//)
 
 //页面公共信息
 type Page struct {
@@ -24,7 +25,9 @@ type Page struct {
 func Init() {
 	orm.RegisterDriver("mysql", orm.DRMySQL)
 	orm.RegisterDataBase("default", "mysql", "root:1234@/d_go_cms?charset=utf8")
-	orm.Debug = true
-	ormer = orm.NewOrm()
-	ormer.Using("default")
+	if beego.AppConfig.String("runmode") == "dev" {
+		orm.Debug = true
+	}
+	//orm.NewOrm() = orm.NewOrm()
+	//orm.NewOrm().Using("default")
 }
