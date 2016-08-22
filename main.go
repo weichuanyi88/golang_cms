@@ -9,6 +9,5 @@ import (
 func main() {
 	models.Init()
 	beego.Run()
-
 }
 

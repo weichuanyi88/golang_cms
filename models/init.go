@@ -6,9 +6,9 @@ import (
 	"github.com/astaxie/beego"
 )
 
-//var (
-//	ormer orm.Ormer
-//)
+var (
+	ormer orm.Ormer
+)
 
 //页面公共信息
 type Page struct {
@@ -28,6 +28,6 @@ func Init() {
 	if beego.AppConfig.String("runmode") == "dev" {
 		orm.Debug = true
 	}
-	//orm.NewOrm() = orm.NewOrm()
-	//orm.NewOrm().Using("default")
+	ormer = orm.NewOrm()
+	//ormer.Using("default")
 }

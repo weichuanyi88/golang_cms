@@ -32,6 +32,8 @@ func (this *Product) getProductListByType(typeId int64) ([]Product) {
  */
 func (this *Product) GetProductById(id int64) (Product){
 	var productDetail Product
-	orm.NewOrm().Raw("SELECT * FROM t_product WHERE id = ?", id).QueryRow(&productDetail)
+	//ormer := orm.NewOrm()
+	//ormer.Using("default")
+	ormer.Raw("SELECT * FROM t_product WHERE id = ?", id).QueryRow(&productDetail)
 	return productDetail
 }
