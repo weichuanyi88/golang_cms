@@ -14,9 +14,13 @@ func init() {
 	news := &controllers.NewsController{}
 	beego.Router("/news/getnewsdetail", news, "get,post:GetNewsById")
 	beego.Router("/news/getnewslist", news, "get,post:GetNewsList")
+	beego.Router("/news/getnewslistbytypeid", news, "get,post:GetNewsListByTypeId")
 
 	product := &controllers.ProductController{}
 	beego.Router("/product/getlist", product, "get,post:GetProductListByType")
 	beego.Router("/product/getproductdetail", product, "get,post:GetProductDetailById")
+
+	article := &controllers.ArticleController{}
+	beego.Router("/article/getarticledetail", article, "get,post:GetArticleById")
 
 }

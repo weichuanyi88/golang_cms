@@ -8,6 +8,7 @@ import (
 
 func main() {
 	//models.Init()
+	beego.SetStaticPath("/admin", "views/admin")
 	beego.Run()
 }
 

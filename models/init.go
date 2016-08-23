@@ -6,10 +6,6 @@ import (
 	"github.com/astaxie/beego"
 )
 
-//var (
-//	ormer orm.Ormer
-//)
-
 //页面公共信息
 type Page struct {
 	SiteName    string //网站名称
@@ -24,10 +20,8 @@ type Page struct {
 
 func init() {
 	orm.RegisterDriver("mysql", orm.DRMySQL)
-	orm.RegisterDataBase("default", "mysql", "root:1234@tcp(172.17.10.107:3306)/d_go_cms?charset=utf8")
+	orm.RegisterDataBase("default", "mysql", "root:1234@tcp(47.88.24.94:3306)/d_go_cms?charset=utf8")
 	if beego.AppConfig.String("runmode") == "dev" {
 		orm.Debug = true
 	}
-	//ormer = orm.NewOrm()
-	//ormer.Using("default")
 }
