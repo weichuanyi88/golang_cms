@@ -6,9 +6,9 @@ import (
 	"github.com/astaxie/beego"
 )
 
-var (
-	ormer orm.Ormer
-)
+//var (
+//	ormer orm.Ormer
+//)
 
 //页面公共信息
 type Page struct {
@@ -22,12 +22,12 @@ type Page struct {
 	Author      string //作者
 }
 
-func Init() {
+func init() {
 	orm.RegisterDriver("mysql", orm.DRMySQL)
-	orm.RegisterDataBase("default", "mysql", "root:1234@/d_go_cms?charset=utf8")
+	orm.RegisterDataBase("default", "mysql", "root:1234@tcp(172.17.10.107:3306)/d_go_cms?charset=utf8")
 	if beego.AppConfig.String("runmode") == "dev" {
 		orm.Debug = true
 	}
-	ormer = orm.NewOrm()
+	//ormer = orm.NewOrm()
 	//ormer.Using("default")
 }

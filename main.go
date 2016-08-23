@@ -3,11 +3,11 @@ package main
 import (
 	_ "golang_cms/routers"
 	"github.com/astaxie/beego"
-	"golang_cms/models"
+	_ "golang_cms/models"
 )
 
 func main() {
-	models.Init()
+	//models.Init()
 	beego.Run()
 }
 
