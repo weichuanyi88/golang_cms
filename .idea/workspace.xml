@@ -1,283 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3242794-04ad-4a1b-99d3-e3443f5c55ca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/imageUploader.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/images/center_focus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/images/left_focus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/images/none_focus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/images/right_focus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/table/dragicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/images/bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/images/pre0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/images/pre1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/images/pre2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/images/pre3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/images/pre4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/center_focus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/left_focus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/none_focus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/right_focus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/zh-cn/images/copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/zh-cn/images/imglabel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/zh-cn/images/localimage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/zh-cn/images/music.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/zh-cn/images/upload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/anchor.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/arrow_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/arrow_up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/button-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/cancelbutton.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/cursor_h.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/cursor_h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/cursor_v.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/cursor_v.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/dialog-title-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/filescan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/highlighted.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/icons-all.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/icons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/lock.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/neweditor-tab-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/pagebreak.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/scale.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/spacer.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/sparator_v.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/table-cell-align.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/tangram-colorpicker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/toolbar_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/unhighlighted.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/upload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/videologo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/word.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/wordpaste.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/swfupload/swfupload.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/swfupload/swfupload_fp9.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/admin.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/article.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/news_type.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/assets/css/ace-ie.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/anchor/anchor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/attachment.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/attachment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/callbacks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeMaps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/gmap/gmap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/image.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/image.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/internal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/link/link.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/map/map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/spechars/spechars.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/spechars/spechars.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/table/edittable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/table/edittable.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/table/edittable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/table/edittd.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/table/edittip.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/tangram.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/template.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/video.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/video.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/video.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/zh-cn/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/css/ueditor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/dialogbase.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/iframe.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/SyntaxHighlighter/shCore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/codemirror/codemirror.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/codemirror/codemirror.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/swfupload/fileprogress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/swfupload/swfupload.cookies.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/swfupload/swfupload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/swfupload/swfupload.proxy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/swfupload/swfupload.queue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/swfupload/swfupload.speed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/ueditor.all.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/ueditor.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/ueditor.parse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/Test_http_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/article_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/admin_addNews.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/admin_addSinglePage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/admin_editSinglePage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/admin_footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/admin_head.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/admin_header_navbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/admin_index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/admin_layout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/admin_left_navbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/admin_newsList.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/admin_singlePageList.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controllers/article_controller.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/admin/assets/css/ace-ie.min.css" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/controllers/base_controller.go" afterPath="$PROJECT_DIR$/controllers/base.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/controllers/news_controller.go" afterPath="$PROJECT_DIR$/controllers/news.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/controllers/product_controller.go" afterPath="$PROJECT_DIR$/controllers/product.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/controllers/user_controller.go" afterPath="$PROJECT_DIR$/controllers/user.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/avatars/Thumbs.db" afterPath="$PROJECT_DIR$/static/admin/assets/avatars/Thumbs.db" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/avatars/avatar.png" afterPath="$PROJECT_DIR$/static/admin/assets/avatars/avatar.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/avatars/avatar1.png" afterPath="$PROJECT_DIR$/static/admin/assets/avatars/avatar1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/avatars/avatar2.png" afterPath="$PROJECT_DIR$/static/admin/assets/avatars/avatar2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/avatars/avatar3.png" afterPath="$PROJECT_DIR$/static/admin/assets/avatars/avatar3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/avatars/avatar4.png" afterPath="$PROJECT_DIR$/static/admin/assets/avatars/avatar4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/avatars/avatar5.png" afterPath="$PROJECT_DIR$/static/admin/assets/avatars/avatar5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/avatars/profile-pic.jpg" afterPath="$PROJECT_DIR$/static/admin/assets/avatars/profile-pic.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/avatars/user.jpg" afterPath="$PROJECT_DIR$/static/admin/assets/avatars/user.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/css/ace-rtl.min.css" afterPath="$PROJECT_DIR$/static/admin/assets/css/ace-rtl.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/css/ace-skins.min.css" afterPath="$PROJECT_DIR$/static/admin/assets/css/ace-skins.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/css/ace.min.css" afterPath="$PROJECT_DIR$/static/admin/assets/css/ace.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/css/bootstrap-editable.css" afterPath="$PROJECT_DIR$/static/admin/assets/css/bootstrap-editable.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/css/bootstrap-timepicker.css" afterPath="$PROJECT_DIR$/static/admin/assets/css/bootstrap-timepicker.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/static/admin/assets/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/css/chosen.css" afterPath="$PROJECT_DIR$/static/admin/assets/css/chosen.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/css/colorbox.css" afterPath="$PROJECT_DIR$/static/admin/assets/css/colorbox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/css/colorpicker.css" afterPath="$PROJECT_DIR$/static/admin/assets/css/colorpicker.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/css/datepicker.css" afterPath="$PROJECT_DIR$/static/admin/assets/css/datepicker.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/css/daterangepicker.css" afterPath="$PROJECT_DIR$/static/admin/assets/css/daterangepicker.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/css/dropzone.css" afterPath="$PROJECT_DIR$/static/admin/assets/css/dropzone.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/css/font-awesome-ie7.min.css" afterPath="$PROJECT_DIR$/static/admin/assets/css/font-awesome-ie7.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/static/admin/assets/css/font-awesome.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/css/fullcalendar.css" afterPath="$PROJECT_DIR$/static/admin/assets/css/fullcalendar.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/css/images/Thumbs.db" afterPath="$PROJECT_DIR$/static/admin/assets/css/images/Thumbs.db" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/css/images/loading.gif" afterPath="$PROJECT_DIR$/static/admin/assets/css/images/loading.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/css/jquery-ui-1.10.3.custom.min.css" afterPath="$PROJECT_DIR$/static/admin/assets/css/jquery-ui-1.10.3.custom.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/css/jquery-ui-1.10.3.full.min.css" afterPath="$PROJECT_DIR$/static/admin/assets/css/jquery-ui-1.10.3.full.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/css/jquery.gritter.css" afterPath="$PROJECT_DIR$/static/admin/assets/css/jquery.gritter.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/css/select2.css" afterPath="$PROJECT_DIR$/static/admin/assets/css/select2.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/css/ui.jqgrid.css" afterPath="$PROJECT_DIR$/static/admin/assets/css/ui.jqgrid.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/font/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/static/admin/assets/font/fontawesome-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/images/gallery/image-1.jpg" afterPath="$PROJECT_DIR$/static/admin/assets/images/gallery/image-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/images/gallery/image-2.jpg" afterPath="$PROJECT_DIR$/static/admin/assets/images/gallery/image-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/images/gallery/image-3.jpg" afterPath="$PROJECT_DIR$/static/admin/assets/images/gallery/image-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/images/gallery/image-4.jpg" afterPath="$PROJECT_DIR$/static/admin/assets/images/gallery/image-4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/images/gallery/image-5.jpg" afterPath="$PROJECT_DIR$/static/admin/assets/images/gallery/image-5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/images/gallery/image-6.jpg" afterPath="$PROJECT_DIR$/static/admin/assets/images/gallery/image-6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/images/gallery/thumb-1.jpg" afterPath="$PROJECT_DIR$/static/admin/assets/images/gallery/thumb-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/images/gallery/thumb-2.jpg" afterPath="$PROJECT_DIR$/static/admin/assets/images/gallery/thumb-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/images/gallery/thumb-3.jpg" afterPath="$PROJECT_DIR$/static/admin/assets/images/gallery/thumb-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/images/gallery/thumb-4.jpg" afterPath="$PROJECT_DIR$/static/admin/assets/images/gallery/thumb-4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/images/gallery/thumb-5.jpg" afterPath="$PROJECT_DIR$/static/admin/assets/images/gallery/thumb-5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/images/gallery/thumb-6.jpg" afterPath="$PROJECT_DIR$/static/admin/assets/images/gallery/thumb-6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/ace-elements.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/ace-elements.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/ace-extra.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/ace-extra.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/ace.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/ace.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/additional-methods.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/additional-methods.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/bootbox.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/bootbox.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/bootstrap-colorpicker.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/bootstrap-colorpicker.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/bootstrap-tag.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/bootstrap-tag.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/bootstrap-wysiwyg.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/bootstrap-wysiwyg.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/chosen.jquery.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/chosen.jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/date-time/bootstrap-datepicker.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/date-time/bootstrap-datepicker.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/date-time/bootstrap-timepicker.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/date-time/bootstrap-timepicker.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/date-time/daterangepicker.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/date-time/daterangepicker.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/date-time/moment.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/date-time/moment.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/dropzone.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/dropzone.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/excanvas.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/excanvas.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/flot/jquery.flot.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/flot/jquery.flot.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/flot/jquery.flot.pie.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/flot/jquery.flot.pie.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/flot/jquery.flot.resize.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/flot/jquery.flot.resize.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/fuelux/data/fuelux.tree-sampledata.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/fuelux/data/fuelux.tree-sampledata.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/fuelux/fuelux.spinner.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/fuelux/fuelux.spinner.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/fuelux/fuelux.tree.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/fuelux/fuelux.tree.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/fuelux/fuelux.wizard.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/fuelux/fuelux.wizard.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/fullcalendar.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/fullcalendar.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/html5shiv.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/html5shiv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/jqGrid/i18n/grid.locale-en.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/jqGrid/i18n/grid.locale-en.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/jqGrid/jquery.jqGrid.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/jqGrid/jquery.jqGrid.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/jquery-1.10.2.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/jquery-1.10.2.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/jquery-2.0.3.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/jquery-2.0.3.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/jquery-ui-1.10.3.custom.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/jquery-ui-1.10.3.custom.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/jquery-ui-1.10.3.full.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/jquery-ui-1.10.3.full.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/jquery.autosize.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/jquery.autosize.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/jquery.colorbox-min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/jquery.colorbox-min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/jquery.dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/jquery.dataTables.bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/jquery.dataTables.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/jquery.dataTables.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/jquery.easy-pie-chart.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/jquery.easy-pie-chart.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/jquery.gritter.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/jquery.gritter.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/jquery.hotkeys.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/jquery.hotkeys.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/jquery.inputlimiter.1.3.1.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/jquery.inputlimiter.1.3.1.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/jquery.knob.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/jquery.knob.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/jquery.maskedinput.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/jquery.maskedinput.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/jquery.mobile.custom.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/jquery.mobile.custom.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/jquery.nestable.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/jquery.nestable.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/jquery.slimscroll.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/jquery.slimscroll.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/jquery.sparkline.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/jquery.sparkline.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/jquery.ui.touch-punch.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/jquery.ui.touch-punch.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/jquery.validate.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/jquery.validate.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/markdown/bootstrap-markdown.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/markdown/bootstrap-markdown.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/markdown/markdown.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/markdown/markdown.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/respond.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/respond.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/select2.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/select2.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/typeahead-bs2.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/typeahead-bs2.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/x-editable/ace-editable.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/x-editable/ace-editable.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin/assets/js/x-editable/bootstrap-editable.min.js" afterPath="$PROJECT_DIR$/static/admin/assets/js/x-editable/bootstrap-editable.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/golang_cms.exe" afterPath="$PROJECT_DIR$/golang_cms.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/golang_cms.iml" afterPath="$PROJECT_DIR$/.idea/golang_cms.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/GOPATH__golang_cms_.xml" afterPath="$PROJECT_DIR$/.idea/libraries/GOPATH__golang_cms_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/app.conf" afterPath="$PROJECT_DIR$/conf/app.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/index.go" afterPath="$PROJECT_DIR$/controllers/index.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/main.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/article.go" afterPath="$PROJECT_DIR$/models/article.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/news.go" afterPath="$PROJECT_DIR$/models/news.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/product.go" afterPath="$PROJECT_DIR$/models/product.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routers/router.go" afterPath="$PROJECT_DIR$/routers/router.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/blank.html" afterPath="$PROJECT_DIR$/views/admin/blank.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/buttons.html" afterPath="$PROJECT_DIR$/views/admin/buttons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/calendar.html" afterPath="$PROJECT_DIR$/views/admin/calendar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/dropzone.html" afterPath="$PROJECT_DIR$/views/admin/dropzone.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/elements.html" afterPath="$PROJECT_DIR$/views/admin/elements.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/error-404.html" afterPath="$PROJECT_DIR$/views/admin/error-404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/error-500.html" afterPath="$PROJECT_DIR$/views/admin/error-500.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/faq.html" afterPath="$PROJECT_DIR$/views/admin/faq.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/form-elements.html" afterPath="$PROJECT_DIR$/views/admin/form-elements.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/form-wizard.html" afterPath="$PROJECT_DIR$/views/admin/form-wizard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/gallery.html" afterPath="$PROJECT_DIR$/views/admin/gallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/grid.html" afterPath="$PROJECT_DIR$/views/admin/grid.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/inbox.html" afterPath="$PROJECT_DIR$/views/admin/inbox.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/index.html" afterPath="$PROJECT_DIR$/views/admin/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/invoice.html" afterPath="$PROJECT_DIR$/views/admin/invoice.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/jqgrid.html" afterPath="$PROJECT_DIR$/views/admin/jqgrid.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/jquery-ui.html" afterPath="$PROJECT_DIR$/views/admin/jquery-ui.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/login.html" afterPath="$PROJECT_DIR$/views/admin/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/nestable-list.html" afterPath="$PROJECT_DIR$/views/admin/nestable-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/pricing.html" afterPath="$PROJECT_DIR$/views/admin/pricing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/profile.html" afterPath="$PROJECT_DIR$/views/admin/profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/tables.html" afterPath="$PROJECT_DIR$/views/admin/tables.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/timeline.html" afterPath="$PROJECT_DIR$/views/admin/timeline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/treeview.html" afterPath="$PROJECT_DIR$/views/admin/treeview.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/typography.html" afterPath="$PROJECT_DIR$/views/admin/typography.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/widgets.html" afterPath="$PROJECT_DIR$/views/admin/widgets.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/wysiwyg.html" afterPath="$PROJECT_DIR$/views/admin/wysiwyg.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/articleDetail.html" afterPath="$PROJECT_DIR$/views/articleDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/common_header.html" afterPath="$PROJECT_DIR$/views/common_header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.html" afterPath="$PROJECT_DIR$/views/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/newsDetail.html" afterPath="$PROJECT_DIR$/views/newsDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/newsList.html" afterPath="$PROJECT_DIR$/views/newsList.html" />
-    </list>
+    <list default="true" id="f3242794-04ad-4a1b-99d3-e3443f5c55ca" name="Default" comment="" />
     <ignored path="mygo_cms.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -1112,7 +836,7 @@
       <workItem from="1474945857223" duration="11394000" />
       <workItem from="1475907243970" duration="1819000" />
       <workItem from="1476772139205" duration="8334000" />
-      <workItem from="1484794642267" duration="108000" />
+      <workItem from="1484794642267" duration="704000" />
     </task>
     <servers />
   </component>
@@ -1125,7 +849,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288727000" />
+    <option name="totallyTimeSpent" value="289323000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1137,7 +861,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1040" extended-state="1" />
+    <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
