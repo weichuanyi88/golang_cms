@@ -1,12 +1,21 @@
 <component name="libraryTable">
   <library name="GOPATH &lt;golang_cms&gt;">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../hello" />
       <root url="file://$PROJECT_DIR$/../cms" />
-      <root url="file://$PROJECT_DIR$/../github.com" />
       <root url="file://$PROJECT_DIR$/../beeweb" />
+      <root url="file://$PROJECT_DIR$/../blog" />
+      <root url="file://$PROJECT_DIR$/../soa_real_sing_statistics" />
+      <root url="file://$PROJECT_DIR$/../room-song-gateway" />
+      <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../hello" />
+      <root url="file://$PROJECT_DIR$/../gen-go" />
+      <root url="file://$PROJECT_DIR$/../platform_safe_gateway" />
+      <root url="file://$PROJECT_DIR$/../unionban" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
   </library>
 </component>

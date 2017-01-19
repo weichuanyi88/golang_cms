@@ -148,7 +148,7 @@
 				<div class="col-sm-6">
 					<h3><span>{{.newsDetail.Title}}</span></h3>
 
-					{{.newsDetail.Content}}
+					{{str2html .newsDetail.Content}}
 
 					<!-- Paggination -->
 					<ul class="pagination pull-left">

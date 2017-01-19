@@ -1,0 +1,174 @@
+<div class="page-content">
+    <div class="page-header">
+        <h1>添加资讯 {{.showMessage}}</h1>
+    </div>
+
+    <!-- PAGE CONTENT BEGINS -->
+
+
+    <form method="post" name="p" action="/admin/article/add">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="widget-box">
+                    <div class="widget-header">
+                        <h4>Default</h4>
+                    </div>
+
+                    <div class="widget-body">
+                        <div class="widget-main no-padding">
+
+                            <fieldset>
+                                <table class="table ">
+                                    <tbody>
+                                    <tr>
+                                        <th width="150">资讯标题</th>
+                                        <td>
+                                            <input type="text" name="Title" class="width-100"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th width="100">SEO keywords</th>
+                                        <td>
+                                            <input type="text" name="Keywords" class="width-100"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th width="100">SEO description</th>
+                                        <td>
+                                            <input type="text" name="Description" class="width-100"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th width="100"  style="vertical-align:middle;">主题图片</th>
+                                        <td>
+                                            <input type="text" id="image" name="Image" class="width-70"/>
+                                            <a href="javascript:void(0);" onclick="upImage();">上传图片</a>
+                                            <img id="preview" src="" width = "100" height="80" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>资讯分类</th>
+                                        <td>
+
+                                            <select  class="form-control" id="newsType" name="Typeid" >
+                                                <option  value="">&nbsp;</option>
+                                                <option value="1">关于公司</option>
+                                                <option value="2">业务范围</option>
+                                                <option value="3">服务流程</option>
+                                                <option value="4">联系我们</option>
+                                                <option value="5">线切割</option>
+                                                <option value="6">五金冲压</option>
+                                                <option value="7">专业设计</option>
+                                                <option value="8">其他业务</option>
+                                            </select>
+                                            <div id="subNewsType"></div>
+                                            <script type="text/javascript" charset="utf-8">
+                                                $("#newsType").change(function(){
+//                                                    alert("aaaaa")
+                                                    var parentTypeId = $("#newsType  option:selected").val()
+//                                                    alert(parentTypeId);
+                                                    htmlobj=$.ajax({url:"/admin/newstype/getsubtype4select?parentTypeId="+parentTypeId,async:true});
+                                                     res = new String(htmlobj,"UTF-8");
+                                                    alert(res)
+                                                    $("#subNewsType").html(htmlobj.responseText);
+                                                });
+                                                /*$("button").click(function(){
+                                                    $.post("demo_test_post.asp",
+                                                            {
+                                                                name:"Donald Duck",
+                                                                city:"Duckburg"
+                                                            },
+                                                            function(data,status){
+                                                                alert("Data: " + data + "\nStatus: " + status);
+                                                            });
+                                                });*/
+                                            </script>
+
+
+
+                                            <!--<select  class="form-control" id="form-field-select-1" name="Typeid" >
+                                                <option  value="">&nbsp;</option>
+                                                <option value="1">关于公司</option>
+                                                <option value="2">业务范围</option>
+                                                <option value="3">服务流程</option>
+                                                <option value="4">联系我们</option>
+                                                <option value="5">线切割</option>
+                                                <option value="6">五金冲压</option>
+                                                <option value="7">专业设计</option>
+                                                <option value="8">其他业务</option>
+                                            </select>-->
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>发布时间</th>
+                                        <td>
+                                            <div class="input-group">
+                                                <input class="form-control date-picker"
+                                                       id="datetimepicker" type="text" name="Addtime"
+                                                       data-date-format="yyyy-mm-dd HH:ii:ss"/>
+																	<span class="input-group-addon">
+																		<i class="icon-calendar bigger-110"></i>
+																	</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>单页内容</th>
+                                        <td>
+                                            <script type="text/javascript" charset="utf-8">
+                                                window.UEDITOR_HOME_URL = "/static/ueditor/";
+                                            </script>
+                                            <script type="text/javascript" src="/static/ueditor/ueditor.config.js"></script>
+                                            <script type="text/javascript" src="/static/ueditor/ueditor.all.min.js"></script>
+                                            <script type="text/plain" id="content" name="Content"></script>
+                                            <script type="text/plain" id="upload_ue"></script>
+                                            <script type="text/javascript" charset="utf-8">
+                                                var optionsEditor = {"fileUrl":"/admin/article/upload?type=3","filePath":"","imageUrl":"/admin/article/upload?type=1","imagePath":"","initialFrameWidth":"100%","initialFrameHeight":"400"};
+                                                var optionsUP = {"imageUrl":"/admin/article/upload?type=2&w=180&h=135","imagePath":""};
+                                                //文章内容编辑器
+                                                var ue = UE.getEditor("content", optionsEditor);
+                                                //上传标题图片
+                                                var _editor = UE.getEditor("upload_ue",optionsUP);
+                                                _editor.ready(function () {
+                                                    _editor.setDisabled();
+                                                    _editor.hide();
+                                                    _editor.addListener('beforeInsertImage', function (t, arg) {     //侦听图片上传
+                                                        $("#image").attr("value", arg[0].src);                      //将地址赋值给相应的input
+                                                        $("#preview").attr("src", arg[0].src);
+                                                    })
+                                                });
+                                                function upImage() {
+                                                    var myImage = _editor.getDialog("insertimage");
+                                                    myImage.open();
+                                                }
+                                            </script>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                    <!--<tfoot>
+                                    <tr>
+                                        <td></td>
+                                        <td><button type="submit" class="btn"><i class="icon-ok"></i> 提交</button>
+                                            <button type="button" class="btn" onclick="javascript:history.back();">取消</button></td>
+                                    </tr>
+                                    </tfoot>-->
+                                </table>
+                            </fieldset>
+
+                            <div class="form-actions center">
+                                <button type="submit" class="btn  btn-success">
+                                    保存
+                                    <i class="icon-ok bigger-110"></i>
+                                </button>
+                                <button type="button" class="btn " onclick="javascript:history.back();">取消</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- PAGE CONTENT ENDS -->
+        </div><!-- /.row -->
+    </form>
+</div><!-- /.page-content -->

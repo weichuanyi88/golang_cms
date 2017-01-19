@@ -3,17 +3,16 @@ package models
 import (
 	"github.com/astaxie/beego/orm"
 	_ "github.com/go-sql-driver/mysql"
-	"fmt"
 )
 
 type News struct {
 	Id int64
 	Title string
 	Content string
-	TypeId int64
+	Typeid int64
 	Image string
-	AddTime int64
-	ParentTypeId int64
+	Addtime int64
+	ParenttypeId int64
 }
 
 
@@ -28,10 +27,7 @@ func init() {
  */
 func  (this *News) GetTopNewsByTypeId(id int64)  ([]News){
 	var newsList []News
-	num,err := orm.NewOrm().Raw("SELECT id, title,content,typeId,image,addTime,parentTypeId FROM t_news WHERE typeId = ? limit 10", id).QueryRows(&newsList)
-	if(err ==nil){
-		fmt.Println(num)
-	}
+	orm.NewOrm().Raw("SELECT id, title,content,typeId,image,addTime,parentTypeId FROM t_news WHERE typeId = ? limit 10", id).QueryRows(&newsList)
 	return newsList
 }
 
@@ -40,10 +36,7 @@ func  (this *News) GetTopNewsByTypeId(id int64)  ([]News){
  */
 func  (this *News) GetNewsListOrderByAddTimeDesc()  ([]News){
 	var newsList []News
-	num,err := orm.NewOrm().Raw("SELECT id, title,content,typeId,image,addTime,parentTypeId FROM t_news limit 20").QueryRows(&newsList)
-	if(err ==nil){
-		fmt.Println(num)
-	}
+	orm.NewOrm().Raw("SELECT id, title,content,typeId,image,addTime,parentTypeId FROM t_news limit 20").QueryRows(&newsList)
 	return newsList
 }
 

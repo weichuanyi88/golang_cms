@@ -15,5 +15,5 @@ func (this *IndexController) Get() {
 	this.Data["technologyNews"] = technologyNews
 
 	this.Data["page"] = this.page
-	this.TplName = "index.html"
+	this.setTplName("index.html")
 }

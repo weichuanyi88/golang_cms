@@ -7,11 +7,11 @@ import (
 
 type Product struct {
 	Id      int64
-	TypeId  int64
+	Typeid  int64
 	Image   string
 	Title   string
-	BianHao string
-	GuiGe   string
+	Bianhao string
+	Guige   string
 	Content string
 	Addtime int64
 }
